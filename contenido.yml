@@ -6,7 +6,7 @@ correo: 'correo@mail.com'
 titulo: 'Titulo'
 subtitulo: 'Subtitulo'
 texto: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
+  *Lorem ipsum dolor sit ameti*, consectetur adipiscing elit. Sed lorem urna,
   tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
   tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
   et euismod ex. Vivamus porta leo sed elit luctus, in consequat est
@@ -28,7 +28,7 @@ texto: |
   condimentum felis, id lobortis sem nisi ac odio. Aliquam ornare leo a
   nunc consequat, vitae suscipit velit rhoncus. 
 abstract: |
-  Donec id sagittis nibh. Proin nec ipsum at dui aliquam interdum ut in
+  Donec id **sagittis nibh**. Proin nec ipsum at dui aliquam interdum ut in
   tortor. Praesent venenatis ipsum pulvinar tincidunt scelerisque. Praesent
   mattis tellus id tristique dictum. Nam neque turpis, tristique mollis
   arcu id, accumsan dictum risus. Morbi vulputate placerat purus vel
