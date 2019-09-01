@@ -21,14 +21,12 @@ def md(value):
 jinja_env.filters['md'] = md
 
 def parrafos(value):
-    """ Remover ultimo salto de linea """
+    """ Remover párrafos vacíos"""
     parrafos = value.split('\n')
     o = ''
     for parrafo in parrafos:
       if parrafo:
         o += '<p>' + parrafo + '</p>'
-    # li = value.rsplit('\n', 1)
-    # return ''.join(li)
     return o
 jinja_env.filters['parrafos'] = parrafos
 

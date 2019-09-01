@@ -5,7 +5,7 @@ tags: 'algunas, etiquetas'
 correo: 'correo@mail.com'
 titulo: 'Titulo'
 subtitulo: 'Subtitulo'
-texto: > 
+texto: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
   tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
   tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -27,7 +27,7 @@ texto: >
   Pellentesque dignissim, nunc et malesuada hendrerit, orci metus
   condimentum felis, id lobortis sem nisi ac odio. Aliquam ornare leo a
   nunc consequat, vitae suscipit velit rhoncus. 
-abstract: >  
+abstract: |
   Donec id sagittis nibh. Proin nec ipsum at dui aliquam interdum ut in
   tortor. Praesent venenatis ipsum pulvinar tincidunt scelerisque. Praesent
   mattis tellus id tristique dictum. Nam neque turpis, tristique mollis
@@ -37,11 +37,11 @@ abstract: >
 imagenes:
   - url: 'https://picsum.photos/1024/768?random=1'
   - url: 'https://picsum.photos/1024/384?blur=2&random=1'
-  #- url: 'https://picsum.photos/512/512?grayscale&random=1'
+  - url: 'https://picsum.photos/1024/512?grayscale&random=1'
 elementos:
-  - titulo: 'Título'
+  - titulo: 'Título Sección 1'
     subtitulo: 'Subtítulo'
-    texto: > 
+    texto: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
       tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
       tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -76,7 +76,7 @@ elementos:
 
     elementos:
       - titulo: 'Título'
-        texto: > 
+        texto: | 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
           tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
           tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -107,7 +107,7 @@ elementos:
         elementos:
           - titulo: 'Título'
             subtitulo : 'Subtítulo'
-            texto: > 
+            texto: | 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
               tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
               tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -137,7 +137,7 @@ elementos:
               nunc consequat, vitae suscipit velit rhoncus. 
             elementos:
               - titulo: 'Título'
-                texto: > 
+                texto: | 
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
                   tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
                   tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -168,7 +168,7 @@ elementos:
                 imagenes:
                  - url: 'https://picsum.photos/1024/384?random=3'
               - titulo: 'Título'
-                texto: > 
+                texto: | 
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
                   tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
                   tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -200,7 +200,7 @@ elementos:
                  - alt: 'foto_afiche'
                    url: 'https://picsum.photos/1024/512?random=3'
               - titulo: 'Título'
-                texto: > 
+                texto: | 
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
                   tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
                   tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -233,7 +233,19 @@ elementos:
                    url: 'https://picsum.photos/1024/768?random=3'
           - titulo: 'Título'
             subtitulo: 'Subtítulo'
-            texto: >
+            texto: |
+              Maecenas sit amet accumsan tellus. Donec mollis feugiat tellus pretium
+              aliquet. Nullam in arcu imperdiet, interdum est quis, tincidunt sapien.
+              Vivamus justo mauris, gravida et convallis quis, iaculis sed odio. In
+              posuere commodo pellentesque. Aenean a vehicula nisi, vitae pretium
+              sapien. Nulla facilisi. Pellentesque cursus sem nulla, eu pellentesque
+              velit gravida quis. Vivamus dictum, leo at laoreet ullamcorper, diam
+              libero vestibulum arcu, sagittis aliquet est nisl vel erat. Curabitur
+              lobortis sodales neque vitae iaculis. Donec porta accumsan sapien nec
+              consectetur. Ut vitae malesuada diam. Pellentesque a efficitur urna.
+              Pellentesque dignissim, nunc et malesuada hendrerit, orci metus
+              condimentum felis, id lobortis sem nisi ac odio. Aliquam ornare leo a
+              nunc consequat, vitae suscipit velit rhoncus. 
             imagenes:
               - alt: 'alt'
                 url: 'https://picsum.photos/1024/768?random=4'
@@ -243,7 +255,7 @@ elementos:
                 imagenes:
                   - alt: 'Alt'
                     url: 'https://picsum.photos/1024/768?random=5'
-                texto: > 
+                texto: | 
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
                   tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
                   tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -271,8 +283,9 @@ elementos:
                   Pellentesque dignissim, nunc et malesuada hendrerit, orci metus
                   condimentum felis, id lobortis sem nisi ac odio. Aliquam ornare leo a
                   nunc consequat, vitae suscipit velit rhoncus. 
-  - titulo: 'Título'
-    texto: > 
+
+  - titulo: 'Título Sección 2'
+    texto: | 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
       tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
       tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -300,11 +313,12 @@ elementos:
       Pellentesque dignissim, nunc et malesuada hendrerit, orci metus
       condimentum felis, id lobortis sem nisi ac odio. Aliquam ornare leo a
       nunc consequat, vitae suscipit velit rhoncus. 
-  - titulo: 'Título'
-    texto: > 
+
+  - titulo: 'Título Sección 3'
+    texto: | 
     elementos:
      - titulo: 'Título'
-       texto: >
+       texto: |
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
          tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
          tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -332,8 +346,9 @@ elementos:
          Pellentesque dignissim, nunc et malesuada hendrerit, orci metus
          condimentum felis, id lobortis sem nisi ac odio. Aliquam ornare leo a
          nunc consequat, vitae suscipit velit rhoncus. 
-  - titulo: 'Título'
-    texto: >
+
+  - titulo: 'Título Sección 4'
+    texto: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
       tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
       tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
@@ -363,7 +378,7 @@ elementos:
       nunc consequat, vitae suscipit velit rhoncus. 
     elementos:
       - titulo: 'Título'
-        texto: >
+        texto: |
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem urna,
           tincidunt sed accumsan at, varius at est. Pellentesque habitant morbi
           tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
