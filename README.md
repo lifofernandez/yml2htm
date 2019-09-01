@@ -1,2 +1,2 @@
 # yml2htm
-Generar web staticas a partir de YAML data
+Generar web estáticas a partir de YAML data
